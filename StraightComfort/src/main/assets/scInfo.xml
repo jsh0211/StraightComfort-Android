@@ -19,8 +19,7 @@
         <Page>
             <Number>3</Number>
             <Image>backrestheight.gif</Image>
-            <Text>The backrest height should be adjusted so that its support fits the natural curve of your lumbar spine. Always try to remember to sit all the way back in your seat to use the support. Try not to sit on the edge of the seat while at your desk.
-            </Text>
+            <Text>The backrest height should be adjusted so that its support fits the natural curve of your lumbar spine. Always try to remember to sit all the way back in your seat to use the support. Try not to sit on the edge of the seat while at your desk.</Text>
         </Page>
         <Page>
             <Number>4</Number>
@@ -32,7 +31,7 @@
             <Number>5</Number>
             <Image>chairtilt.gif</Image>
             <Text>If available, the chair seat tilt should be parallel to the ground.
-            </Text>
+			</Text>
         </Page>
         <Page>
             <Number>6</Number>
@@ -116,8 +115,8 @@
         <Page>
             <Number>1</Number>
             <Image>monitorheight.png</Image>
-            <Text>Adjust the monitor height so that the top of the screen is within 2 inches of your eye level. Your actual line of sight falls around 10 to 15 degrees under, therefore you will be able to maintain a neutral neck posture.
-            </Text>
+            <Text>Adjust the monitor height so that the top of the screen is within 2 inches of your eye level. Your actual line of sight falls around 10 to 15 degrees under; therefore, you will be able to maintain a neutral neck posture.
+			</Text>
         </Page>
 
         <Page>
@@ -143,7 +142,7 @@
             <Number>5</Number>
             <Image>monitorcrt.png</Image>
             <Text>Most CRT (old style) monitors are not height adjustable however the height can be raised using a riser or computer tower. Alternatively, if the monitor is already on top of a tower and is too high, lower the monitor to the desk surface to reduce the height.
-            </Text>
+			</Text>
         </Page>
         <Page>
             <Number>6</Number>
@@ -189,37 +188,35 @@
         <Page>
             <Number>1</Number>
             <Image>reachzones.png</Image>
-            <Text>Position materials that you use frequently, or for long periods of time, within your primary reach zone which is about a forearms length away.
-            </Text>
+            <Text>Position materials that you use frequently or for long periods of time within your primary reach zone; which, is about a forearms length away.
+			</Text>
         </Page>
 
         <Page>
             <Number>2</Number>
             <Image>bookshelf.png</Image>
-            <Text>Bookshelves are often loaded with heavy binders, charts and reference material. The heaviest and most frequently used binders should be placed on the shelves that require the least amount of reaching or bending.
-            </Text>
+            <Text>Bookshelves are often loaded with heavy binders, charts, and reference material. The heaviest and most frequently used binders should be placed on the shelves that require the least amount of reaching or bending.</Text>
         </Page>
 
         <Page>
             <Number>3</Number>
             <Image>phone.png</Image>
-            <Text>Position your telephone set on the side of your non dominant hand. Try using the phone with your non dominant hand so that you can use your dominant hand for other tasks such as writing.
-            </Text>
+            <Text>Position your telephone set on the side of your non-dominant hand. Try using the phone with your non dominant hand so that you can use your dominant hand for other tasks such as writing.</Text>
         </Page>
         <Page>
             <Number>4</Number>
             <Image>headset.png</Image>
-            <Text>If you use your telephone for prolonged periods of time or if frequently typing simultaneously, consider use of a headset. This prevents the use of awkward neck and shoulder postures when talking on the phone and performing other tasks simultaneously (e.g. writing, typing)</Text>
+            <Text>If you use your telephone for prolonged periods of time or if you frequently type simultaneously, consider using a headset. Headsets prevent the use of awkward neck and shoulder postures when talking on the phone and performing other tasks simultaneously (e.g. writing, typing).</Text>
         </Page>
         <Page>
             <Number>5</Number>
             <Image>footclearance.png</Image>
-            <Text>Ensure that there is adequate space for leg clearance, underneath your desk surface. Relocate garbage/recycling containers, boxes, or files, to another nearby area if possible.</Text>
+            <Text>Ensure that there is adequate space for leg clearance underneath your desk surface. Relocate garbage/recycling containers, boxes, or files, to another nearby area if possible.</Text>
         </Page>
         <Page>
             <Number>6</Number>
             <Image>wires.png</Image>
-            <Text>Wires: Ensure that all wires and extension cords are securely fastened and out of the way, to reduce the risk of tripping.</Text>
+            <Text>Wires: Ensure that all wires and extension cords are securely fastened and out of the way to reduce the risk of tripping.</Text>
         </Page>
     </Shortcut>
 </Shortcutinfo>

@@ -23,7 +23,9 @@
         <STag>
             <Nametag>Chair</Nametag>
             <Page>3</Page>
+            <Page>4</Page>
         </STag>
+
     </Bodypart>
     <Bodypart>
         <Bodypartname>Wrists</Bodypartname>

@@ -10,7 +10,7 @@
         android:id="@+id/FullWorkStation"
         android:layout_width="match_parent"
         android:background="@drawable/background"
-        android:textSize="60sp"
+        android:textSize="55sp"
         android:gravity="bottom"
         android:textColor="#0F99FF"
         android:text="@string/tv_FullWorkstation"
@@ -34,7 +34,7 @@
 
         android:background="@drawable/background"
 
-        android:textSize="60sp"
+        android:textSize="55sp"
         android:gravity="bottom"
         android:text="@string/tv_WorkstationSetup"
         android:textAllCaps="true"
@@ -55,7 +55,7 @@
         android:background="@drawable/background"
 
         android:text="@string/tv_Discomfort"
-        android:textSize="60sp"
+        android:textSize="55sp"
 
         android:gravity="bottom"
         android:textColor="#0F99FF"

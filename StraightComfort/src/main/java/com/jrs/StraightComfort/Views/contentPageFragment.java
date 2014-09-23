@@ -66,15 +66,18 @@ public class contentPageFragment extends Fragment{
             textView.setMovementMethod(new ScrollingMovementMethod());
 
             WebView wv = ((WebView) rootView.findViewById(R.id.wvContentImage));
-
+            wv.setOnTouchListener(new View.OnTouchListener() {
+                @Override
+                public boolean onTouch(View v, MotionEvent event) {
+                    return true;
+                }
+            });
             WebSettings settings = wv.getSettings();
             settings.setUseWideViewPort(true);
             settings.setSupportZoom(false);
             settings.setLoadWithOverviewMode(true);
             settings.setLoadsImagesAutomatically(true);
-            settings.setCacheMode(WebSettings.LOAD_CACHE_ONLY);
             wv.loadDataWithBaseURL("file:///android_asset/drawable", data, "text/html", "UTF-8", null);
-            wv.setLayerType(View.LAYER_TYPE_SOFTWARE,null);
             return rootView;
     }
 

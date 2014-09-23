@@ -141,7 +141,6 @@ public class Solutions extends FilterActivity {
             }
 
             holder.BPactual.setText(bodyParts);
-            holder.BPname.setTextSize(25);
 
 
             return convertView;

@@ -7,26 +7,26 @@
 
     >
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:id="@+id/ivIconImage"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="15dp"
+        android:layout_marginLeft="30dp"
         />
     <TextView
         android:id="@+id/tvScName"
         android:layout_width="wrap_content"
-        android:layout_height="100dp"
+        android:layout_height="150dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:gravity="center_vertical"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/ivIconImage"
         android:layout_alignBottom="@+id/ivIconImage"
         android:textColor="#0F99FF"
-        android:gravity="center_vertical"
-        android:textSize="25sp"
+        android:textSize="35sp"
         android:textAllCaps="true"
-        android:paddingLeft="10dp" />
+        android:paddingLeft="20dp" />
 
 
 </RelativeLayout>

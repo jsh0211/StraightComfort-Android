@@ -53,13 +53,10 @@ public class SplashScreenActivity extends FilterActivity {
             public void run() {
                 try {
                     Context context = getApplicationContext();
-                        if (!filterscData().isInit)
-                        {
+                        filterscData().clear();
                         filterscData().init(context);
                         filterscData().getPageInfo(context);
                         filterscData().getDiscomfortInfo();
-                        filterscData().isInit=true;
-                        }
                 } catch (XmlPullParserException e) {
                     e.printStackTrace();
                 } catch (IOException e) {

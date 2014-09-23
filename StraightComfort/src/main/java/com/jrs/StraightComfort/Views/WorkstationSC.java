@@ -112,7 +112,6 @@ public class WorkstationSC extends FilterActivity {
             String furniture = shortCutsList.get(position).getTitle();
 
             holder.SCname.setText(furniture);
-            holder.SCname.setTextSize(25);
 
 
             holder.SCname.setGravity(Gravity.CENTER_VERTICAL);

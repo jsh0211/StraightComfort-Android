@@ -117,7 +117,6 @@ public class Discomfort extends FilterActivity {
             holder.BPcheckBox.setChecked(bodyPart.isSelected());
 
             holder.BPcheckBox.setTag(bodyPart);
-            holder.BPname.setTextSize(25);
 
             return convertView;
 

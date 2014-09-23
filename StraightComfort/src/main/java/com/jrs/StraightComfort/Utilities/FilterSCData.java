@@ -23,7 +23,6 @@ public class FilterSCData {
 
     private static final String ns = null;
     private static FilterSCData instance;
-    public boolean isInit = false;
 
     private static final XmlPullParser parseDisconfortXml = Xml.newPullParser();
     private static final XmlPullParser parseScInfoXml = Xml.newPullParser();
@@ -55,6 +54,11 @@ public class FilterSCData {
             Log.e("Not Found", f.toString());
         }
 
+    }
+    public void clear()
+    {
+        discomfortcontents.clear();
+        contents.clear();
     }
     public void getDiscomfortInfo() throws XmlPullParserException, IOException
     {

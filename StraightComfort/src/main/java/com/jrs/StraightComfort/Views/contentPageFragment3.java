@@ -3,6 +3,7 @@ package com.jrs.StraightComfort.Views;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebSettings;
@@ -43,6 +44,12 @@ public class contentPageFragment3  extends Fragment {
             String data = "<html><img src=\"" + iconResource + " \" align=\"middle\" width=\"98%\" height=\"98%\"></html>";
             WebView wv = ((WebView) rootView.findViewById(R.id.wvIntroview));
             wv.setLayerType(View.LAYER_TYPE_SOFTWARE,null);
+            wv.setOnTouchListener(new View.OnTouchListener() {
+                @Override
+                public boolean onTouch(View v, MotionEvent event) {
+                    return true;
+                }
+            });
             WebSettings settings = wv.getSettings();
             settings.setUseWideViewPort(true);
             settings.setSupportZoom(false);
